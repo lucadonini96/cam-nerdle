@@ -1624,7 +1624,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                         p.appendChild(m), this.shadowRoot.querySelector("button#share-button").addEventListener("click", function(a) {
                             a.preventDefault(), a.stopPropagation(), hs(function(e) {
                                 var a = e.evaluations,
-                                    s = e.dayOffset - 240,
+                                    s = e.dayOffset - 242,
                                     t = e.rowIndex,
                                     o = e.isHardMode,
                                     n = e.isWin,
